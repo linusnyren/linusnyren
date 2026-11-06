@@ -1,6 +1,6 @@
 {
   "game": 1,
-  "totalMoves": 6,
+  "totalMoves": 7,
   "highScore": {
     "score": 0,
     "game": 0,
@@ -14,13 +14,20 @@
       "konami": false
     },
     "wenzzzel": {
-      "moves": 2,
+      "moves": 3,
       "bones": 0,
-      "deaths": 0,
+      "deaths": 1,
       "konami": false
     }
   },
   "history": [
+    {
+      "login": "wenzzzel",
+      "move": "up",
+      "result": "💀 game over",
+      "game": 1,
+      "at": "2026-11-06T10:37:47.766Z"
+    },
     {
       "login": "linusnyren",
       "move": "up",
@@ -85,12 +92,15 @@
       0
     ],
     "score": 0,
-    "moves": 6,
-    "status": "playing",
+    "moves": 7,
+    "status": "over",
     "contributors": [
       "linusnyren",
       "wenzzzel"
     ],
-    "death": null
+    "death": {
+      "by": "wenzzzel",
+      "cause": "wall"
+    }
   }
 }

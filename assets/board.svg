@@ -45,6 +45,9 @@
     <path d="M-6,10 C-16,20 -20,6 -10,2 Z" fill="#5c2e0e"><animateTransform attributeName="transform" type="rotate" values="0 -8 8;14 -8 8;0 -8 8" dur="1.2s" repeatCount="indefinite"/></path>
     <path d="M17,6 q4,7 9,4" fill="#ff4f8b"><animate attributeName="d" values="M17,6 q4,7 9,4;M17,6 q4,10 9,6;M17,6 q4,7 9,4" dur="0.5s" repeatCount="indefinite"/></path>
   </g></g>
-
+<rect x="20" y="76" width="540" height="396" fill="#05010f" opacity="0.78"/>
+<g class="pulse"><text x="290" y="264" text-anchor="middle" class="big" fill="#ff2a6d" filter="url(#glow)">GAME OVER</text></g>
+<text x="290" y="300" text-anchor="middle" class="hud" fill="#fff">@wenzzzel hit a wall · FINAL SCORE 0</text>
+<text x="290" y="334" text-anchor="middle" class="hud blink" style="fill:#00f0ff">▶ CLICK ANY ARROW TO INSERT COIN ◀</text>
 <rect width="580" height="492" rx="14" fill="url(#scan)"/>
 </svg>
