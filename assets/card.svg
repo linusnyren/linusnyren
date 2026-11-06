@@ -40,12 +40,12 @@
 <text x="330" y="112" class="key">GUILD</text><text x="470" y="112" class="val">Volvo Cars</text>
 <text x="330" y="136" class="key">HOMETOWN</text><text x="470" y="136" class="val">Gothenburg, SE</text>
 <text x="330" y="160" class="key">COMPANION</text><text x="470" y="160" class="val">🐶 Very good boy</text>
-<text x="330" y="184" class="key">QUESTS</text><text x="470" y="184" class="val">23 repos · ★ 3</text>
+<text x="330" y="184" class="key">QUESTS</text><text x="470" y="184" class="val">24 repos · ★ 3</text>
 <text x="330" y="208" class="key">PARTY</text><text x="470" y="208" class="val">12 followers</text>
 <text x="330" y="232" class="key">XP</text>
 <rect x="470" y="221" width="160" height="12" rx="2" fill="#1d0b36" stroke="#3d1d66"/>
-<rect x="470" y="221" width="79" height="12" rx="2" fill="url(#xp)" class="fill"/>
-<text x="640" y="232" class="lbl">24,950</text>
+<rect x="470" y="221" width="95" height="12" rx="2" fill="url(#xp)" class="fill"/>
+<text x="640" y="232" class="lbl">25,950</text>
 
 <!-- skills -->
 <text x="700" y="58" class="sec">SKILL TREE</text>
@@ -53,9 +53,9 @@
   <rect x="700" y="84" width="230" height="12" rx="2" fill="#1d0b36" stroke="#3d1d66"/>
   <rect x="700" y="84" width="230.0" height="12" rx="2" fill="#ff8a3d" class="fill" style="animation-delay:0.2s"/>
   <rect x="722" y="84" width="2" height="12" fill="#0b0418"/><rect x="745" y="84" width="2" height="12" fill="#0b0418"/><rect x="768" y="84" width="2" height="12" fill="#0b0418"/><rect x="791" y="84" width="2" height="12" fill="#0b0418"/><rect x="814" y="84" width="2" height="12" fill="#0b0418"/><rect x="837" y="84" width="2" height="12" fill="#0b0418"/><rect x="860" y="84" width="2" height="12" fill="#0b0418"/><rect x="883" y="84" width="2" height="12" fill="#0b0418"/><rect x="906" y="84" width="2" height="12" fill="#0b0418"/>
-<text x="700" y="112" class="lbl">JAVASCRIPT</text><text x="930" y="112" class="lbl" text-anchor="end">5</text>
+<text x="700" y="112" class="lbl">JAVASCRIPT</text><text x="930" y="112" class="lbl" text-anchor="end">6</text>
   <rect x="700" y="118" width="230" height="12" rx="2" fill="#1d0b36" stroke="#3d1d66"/>
-  <rect x="700" y="118" width="191.7" height="12" rx="2" fill="#f7df1e" class="fill" style="animation-delay:0.35s"/>
+  <rect x="700" y="118" width="230.0" height="12" rx="2" fill="#f7df1e" class="fill" style="animation-delay:0.35s"/>
   <rect x="722" y="118" width="2" height="12" fill="#0b0418"/><rect x="745" y="118" width="2" height="12" fill="#0b0418"/><rect x="768" y="118" width="2" height="12" fill="#0b0418"/><rect x="791" y="118" width="2" height="12" fill="#0b0418"/><rect x="814" y="118" width="2" height="12" fill="#0b0418"/><rect x="837" y="118" width="2" height="12" fill="#0b0418"/><rect x="860" y="118" width="2" height="12" fill="#0b0418"/><rect x="883" y="118" width="2" height="12" fill="#0b0418"/><rect x="906" y="118" width="2" height="12" fill="#0b0418"/>
 <text x="700" y="146" class="lbl">C#</text><text x="930" y="146" class="lbl" text-anchor="end">2</text>
   <rect x="700" y="152" width="230" height="12" rx="2" fill="#1d0b36" stroke="#3d1d66"/>
