@@ -2,6 +2,7 @@
 // "snake|<move>" is one move. Run `node game/snake.mjs play` in CI to process
 // open move issues, or `node game/snake.mjs render` to just re-render.
 import fs from 'node:fs';
+import crypto from 'node:crypto';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { esc, runningDog } from './sprites.mjs';
@@ -242,7 +243,7 @@ function buttonSvg(dir, enabled) {
 const moveUrl = (move) => `${REPO_URL}/issues/new?title=${encodeURIComponent(`snake|${move}`)}&body=${encodeURIComponent(
   `👇 **Just click "Create" / "Submit new issue" — don't change anything.**\n\nA GitHub Action will play your move, update the README and close this issue within ~30 seconds. Then head back to ${REPO_URL.replace('/' + REPO, '')} and admire your work 🐶`)}`;
 
-export function renderReadme(state) {
+export function renderReadme(state, boardFile = 'assets/board.svg') {
   const b = state.board;
   const valid = new Set(validMoves(state));
   const v = state.totalMoves;
@@ -285,7 +286,7 @@ export function renderReadme(state) {
 ## 🕹️ DACHSHUND SNAKE
 ### *The whole internet controls one sausage dog. You are the next move.*
 
-<img src="assets/board.svg?v=${v}" width="600" alt="Dachshund Snake board"/>
+<img src="${boardFile}" width="600" alt="Dachshund Snake board"/>
 
 <table>
 <tr><td></td><td align="center">${btn('up')}</td><td></td></tr>
@@ -362,14 +363,22 @@ export function writeAll(state) {
   if (!state.board) newGame(state);
   fs.mkdirSync(path.join(ROOT, 'assets'), { recursive: true });
   fs.writeFileSync(STATE_FILE, JSON.stringify(state, null, 2) + '\n');
-  fs.writeFileSync(path.join(ROOT, 'assets/board.svg'), renderBoard(state));
+  // GitHub drops query strings when redirecting to raw.githubusercontent.com,
+  // which caches for 5 min. A content-hashed filename gives every move a fresh URL.
+  const board = renderBoard(state);
+  const boardFile = `assets/board/${crypto.createHash('sha1').update(board).digest('hex').slice(0, 10)}.svg`;
+  const boardDir = path.join(ROOT, 'assets/board');
+  fs.rmSync(boardDir, { recursive: true, force: true });
+  fs.rmSync(path.join(ROOT, 'assets/board.svg'), { force: true });
+  fs.mkdirSync(boardDir, { recursive: true });
+  fs.writeFileSync(path.join(ROOT, boardFile), board);
   for (const d of Object.keys(DIRS)) {
     fs.writeFileSync(path.join(ROOT, `assets/btn-${d}.svg`), buttonSvg(d, true));
     fs.writeFileSync(path.join(ROOT, `assets/btn-${d}-off.svg`), buttonSvg(d, false));
   }
   fs.writeFileSync(path.join(ROOT, 'assets/dog.svg'),
     `<svg xmlns="http://www.w3.org/2000/svg" viewBox="-2 -14 84 72" width="64" height="64"><rect x="-2" y="-14" width="84" height="72" rx="12" fill="#12052a"/>${runningDog(4, 0.3)}</svg>\n`);
-  fs.writeFileSync(path.join(ROOT, 'README.md'), renderReadme(state));
+  fs.writeFileSync(path.join(ROOT, 'README.md'), renderReadme(state, boardFile));
 }
 
 export function loadState() {
