@@ -30,11 +30,11 @@
       <animateTransform attributeName="transform" type="scale" values="1;1.18;1" dur="0.9s" repeatCount="indefinite"/>
     </g></g>
   </g>
-<g filter="url(#shadow)"><g transform="translate(182,382) rotate(0)"><path d="M8,0 Q22,-4 26,-14" stroke="#b5651d" stroke-width="5" stroke-linecap="round" fill="none">
-    <animateTransform attributeName="transform" type="rotate" values="-25 8 0;25 8 0;-25 8 0" dur="0.35s" repeatCount="indefinite"/></path></g><ellipse cx="146.0" cy="367.0" rx="5" ry="5" fill="#5c2e0e"/><ellipse cx="146.0" cy="397.0" rx="5" ry="5" fill="#5c2e0e"/>
-  <polyline points="110,382 146,382 182,382" fill="none" stroke="#5c2e0e" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
-  <polyline points="110,382 146,382 182,382" fill="none" stroke="#b5651d" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
-  <polyline points="110,382 146,382 182,382" fill="none" stroke="#d98c3f" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" opacity="0.55" transform="translate(-2,-4)"/><g transform="translate(110,382) scale(-1,1)">
+<g filter="url(#shadow)"><g transform="translate(146,382) rotate(0)"><path d="M8,0 Q22,-4 26,-14" stroke="#b5651d" stroke-width="5" stroke-linecap="round" fill="none">
+    <animateTransform attributeName="transform" type="rotate" values="-25 8 0;25 8 0;-25 8 0" dur="0.35s" repeatCount="indefinite"/></path></g><ellipse cx="95.0" cy="382.0" rx="5" ry="5" fill="#5c2e0e"/><ellipse cx="125.0" cy="382.0" rx="5" ry="5" fill="#5c2e0e"/>
+  <polyline points="110,418 110,382 146,382" fill="none" stroke="#5c2e0e" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="110,418 110,382 146,382" fill="none" stroke="#b5651d" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="110,418 110,382 146,382" fill="none" stroke="#d98c3f" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" opacity="0.55" transform="translate(-2,-4)"/><g transform="translate(110,418) rotate(90)">
     <ellipse cx="2" cy="0" rx="17" ry="14" fill="#c97a2e"/>
     <ellipse cx="13" cy="2" rx="9" ry="7" fill="#d98c3f"/>
     <ellipse cx="21" cy="0" rx="4" ry="3.5" fill="#111"/>
