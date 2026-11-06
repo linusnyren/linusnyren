@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="470" viewBox="0 0 800 470" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+<defs>
+  <linearGradient id="frame" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#00f0ff"/><stop offset=".5" stop-color="#ff2bd6"/><stop offset="1" stop-color="#ffe259"/></linearGradient>
+  <linearGradient id="fur" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#d98a45"/><stop offset="1" stop-color="#a85a20"/></linearGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <clipPath id="screen"><rect x="40" y="92" width="720" height="300"/></clipPath>
+  <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="2" fill="#000" opacity=".22"/></pattern>
+  <style>
+    .hud{font-size:15px;font-weight:700;letter-spacing:3px;fill:#ffe259}
+    .lbl{font-size:12px;letter-spacing:4px;fill:#00f0ff;font-weight:700}
+  </style>
+</defs>
+<rect width="800" height="470" rx="22" fill="#0b0418"/>
+<rect x="6" y="6" width="788" height="458" rx="18" fill="none" stroke="url(#frame)" stroke-width="4" filter="url(#glow)"/>
+<text x="400" y="44" text-anchor="middle" font-size="28" font-weight="900" letter-spacing="6" fill="#ff2bd6" filter="url(#glow)">DACHSHUND SNAKE</text>
+<text x="40" y="78" class="lbl">● LIVE</text>
+<text x="760" y="78" text-anchor="end" class="lbl">1UP · YOU?</text>
+<text x="400" y="78" text-anchor="middle" opacity="1" class="hud">SCORE 000 🦴<animate attributeName="opacity" values="1;0" keyTimes="0;0.1232" calcMode="discrete" dur="17s" repeatCount="indefinite"/></text>
+<text x="400" y="78" text-anchor="middle" opacity="0" class="hud">SCORE 001 🦴<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.1232;0.2681" calcMode="discrete" dur="17s" repeatCount="indefinite"/></text>
+<text x="400" y="78" text-anchor="middle" opacity="0" class="hud">SCORE 002 🦴<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.2681;0.413" calcMode="discrete" dur="17s" repeatCount="indefinite"/></text>
+<text x="400" y="78" text-anchor="middle" opacity="0" class="hud">SCORE 003 🦴<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.413;0.5507" calcMode="discrete" dur="17s" repeatCount="indefinite"/></text>
+<text x="400" y="78" text-anchor="middle" opacity="0" class="hud">SCORE 004 🦴<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5507;0.6812" calcMode="discrete" dur="17s" repeatCount="indefinite"/></text>
+<text x="400" y="78" text-anchor="middle" opacity="0" class="hud">SCORE 005 🦴<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.6812;0.8333" calcMode="discrete" dur="17s" repeatCount="indefinite"/></text>
+<text x="400" y="78" text-anchor="middle" opacity="0" class="hud">SCORE 006 🦴<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.8333;0.9493" calcMode="discrete" dur="17s" repeatCount="indefinite"/></text>
+<text x="400" y="78" text-anchor="middle" opacity="0" class="hud">SCORE 007 🦴<animate attributeName="opacity" values="0;1" keyTimes="0;0.9493" calcMode="discrete" dur="17s" repeatCount="indefinite"/></text>
+<rect x="40" y="92" width="720" height="300" fill="#12052a"/>
+<path d="M40 92v300M60 92v300M80 92v300M100 92v300M120 92v300M140 92v300M160 92v300M180 92v300M200 92v300M220 92v300M240 92v300M260 92v300M280 92v300M300 92v300M320 92v300M340 92v300M360 92v300M380 92v300M400 92v300M420 92v300M440 92v300M460 92v300M480 92v300M500 92v300M520 92v300M540 92v300M560 92v300M580 92v300M600 92v300M620 92v300M640 92v300M660 92v300M680 92v300M700 92v300M720 92v300M740 92v300M760 92v300M40 92h720M40 112h720M40 132h720M40 152h720M40 172h720M40 192h720M40 212h720M40 232h720M40 252h720M40 272h720M40 292h720M40 312h720M40 332h720M40 352h720M40 372h720M40 392h720" stroke="#ff2bd6" stroke-opacity=".13"/>
+<rect x="-80" y="92" width="120" height="300" fill="#00f0ff" opacity=".06" clip-path="url(#screen)">
+  <animate attributeName="x" values="-80;760" dur="4s" repeatCount="indefinite"/></rect>
+<g transform="translate(430 142)" filter="url(#glow)">
+  <rect x="-7" y="-2.5" width="14" height="5" rx="2" fill="#fff8e7"/>
+  <circle cx="-7" cy="-3" r="3" fill="#fff8e7"/><circle cx="-7" cy="3" r="3" fill="#fff8e7"/>
+  <circle cx="7" cy="-3" r="3" fill="#fff8e7"/><circle cx="7" cy="3" r="3" fill="#fff8e7"/><animate attributeName="visibility" values="visible;hidden" keyTimes="0;0.1232" calcMode="discrete" dur="17s" repeatCount="indefinite"/></g>
+  <circle cx="430" cy="142" r="4" fill="none" stroke="#ffe259" stroke-width="3" opacity="0">
+    <animate attributeName="r" values="4;4;26;26" keyTimes="0;0.1232;0.1532;1" dur="17s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.1222;0.1232;0.1532;1" dur="17s" repeatCount="indefinite"/>
+  </circle>
+<g transform="translate(670 222)" filter="url(#glow)">
+  <rect x="-7" y="-2.5" width="14" height="5" rx="2" fill="#fff8e7"/>
+  <circle cx="-7" cy="-3" r="3" fill="#fff8e7"/><circle cx="-7" cy="3" r="3" fill="#fff8e7"/>
+  <circle cx="7" cy="-3" r="3" fill="#fff8e7"/><circle cx="7" cy="3" r="3" fill="#fff8e7"/><animate attributeName="visibility" values="visible;hidden" keyTimes="0;0.2681" calcMode="discrete" dur="17s" repeatCount="indefinite"/></g>
+  <circle cx="670" cy="222" r="4" fill="none" stroke="#ffe259" stroke-width="3" opacity="0">
+    <animate attributeName="r" values="4;4;26;26" keyTimes="0;0.2681;0.2981;1" dur="17s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.2671;0.2681;0.2981;1" dur="17s" repeatCount="indefinite"/>
+  </circle>
+<g transform="translate(270 222)" filter="url(#glow)">
+  <rect x="-7" y="-2.5" width="14" height="5" rx="2" fill="#fff8e7"/>
+  <circle cx="-7" cy="-3" r="3" fill="#fff8e7"/><circle cx="-7" cy="3" r="3" fill="#fff8e7"/>
+  <circle cx="7" cy="-3" r="3" fill="#fff8e7"/><circle cx="7" cy="3" r="3" fill="#fff8e7"/><animate attributeName="visibility" values="visible;hidden" keyTimes="0;0.413" calcMode="discrete" dur="17s" repeatCount="indefinite"/></g>
+  <circle cx="270" cy="222" r="4" fill="none" stroke="#ffe259" stroke-width="3" opacity="0">
+    <animate attributeName="r" values="4;4;26;26" keyTimes="0;0.413;0.443;1" dur="17s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.412;0.413;0.443;1" dur="17s" repeatCount="indefinite"/>
+  </circle>
+<g transform="translate(370 302)" filter="url(#glow)">
+  <rect x="-7" y="-2.5" width="14" height="5" rx="2" fill="#fff8e7"/>
+  <circle cx="-7" cy="-3" r="3" fill="#fff8e7"/><circle cx="-7" cy="3" r="3" fill="#fff8e7"/>
+  <circle cx="7" cy="-3" r="3" fill="#fff8e7"/><circle cx="7" cy="3" r="3" fill="#fff8e7"/><animate attributeName="visibility" values="visible;hidden" keyTimes="0;0.5507" calcMode="discrete" dur="17s" repeatCount="indefinite"/></g>
+  <circle cx="370" cy="302" r="4" fill="none" stroke="#ffe259" stroke-width="3" opacity="0">
+    <animate attributeName="r" values="4;4;26;26" keyTimes="0;0.5507;0.5807;1" dur="17s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.5497;0.5507;0.5807;1" dur="17s" repeatCount="indefinite"/>
+  </circle>
+<g transform="translate(710 322)" filter="url(#glow)">
+  <rect x="-7" y="-2.5" width="14" height="5" rx="2" fill="#fff8e7"/>
+  <circle cx="-7" cy="-3" r="3" fill="#fff8e7"/><circle cx="-7" cy="3" r="3" fill="#fff8e7"/>
+  <circle cx="7" cy="-3" r="3" fill="#fff8e7"/><circle cx="7" cy="3" r="3" fill="#fff8e7"/><animate attributeName="visibility" values="visible;hidden" keyTimes="0;0.6812" calcMode="discrete" dur="17s" repeatCount="indefinite"/></g>
+  <circle cx="710" cy="322" r="4" fill="none" stroke="#ffe259" stroke-width="3" opacity="0">
+    <animate attributeName="r" values="4;4;26;26" keyTimes="0;0.6812;0.7112;1" dur="17s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.6802;0.6812;0.7112;1" dur="17s" repeatCount="indefinite"/>
+  </circle>
+<g transform="translate(330 362)" filter="url(#glow)">
+  <rect x="-7" y="-2.5" width="14" height="5" rx="2" fill="#fff8e7"/>
+  <circle cx="-7" cy="-3" r="3" fill="#fff8e7"/><circle cx="-7" cy="3" r="3" fill="#fff8e7"/>
+  <circle cx="7" cy="-3" r="3" fill="#fff8e7"/><circle cx="7" cy="3" r="3" fill="#fff8e7"/><animate attributeName="visibility" values="visible;hidden" keyTimes="0;0.8333" calcMode="discrete" dur="17s" repeatCount="indefinite"/></g>
+  <circle cx="330" cy="362" r="4" fill="none" stroke="#ffe259" stroke-width="3" opacity="0">
+    <animate attributeName="r" values="4;4;26;26" keyTimes="0;0.8333;0.8633;1" dur="17s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.8323;0.8333;0.8633;1" dur="17s" repeatCount="indefinite"/>
+  </circle>
+<g transform="translate(90 282)" filter="url(#glow)">
+  <rect x="-7" y="-2.5" width="14" height="5" rx="2" fill="#fff8e7"/>
+  <circle cx="-7" cy="-3" r="3" fill="#fff8e7"/><circle cx="-7" cy="3" r="3" fill="#fff8e7"/>
+  <circle cx="7" cy="-3" r="3" fill="#fff8e7"/><circle cx="7" cy="3" r="3" fill="#fff8e7"/><animate attributeName="visibility" values="visible;hidden" keyTimes="0;0.9493" calcMode="discrete" dur="17s" repeatCount="indefinite"/></g>
+  <circle cx="90" cy="282" r="4" fill="none" stroke="#ffe259" stroke-width="3" opacity="0">
+    <animate attributeName="r" values="4;4;26;26" keyTimes="0;0.9493;0.9793;1" dur="17s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.9483;0.9493;0.9793;1" dur="17s" repeatCount="indefinite"/>
+  </circle>
+<g>
+  <path d="M0 0 L-12 -5" stroke="#7a3d12" stroke-width="4" stroke-linecap="round">
+    <animateTransform attributeName="transform" type="rotate" values="-20;20;-20" dur="0.35s" repeatCount="indefinite"/></path>
+  <animateMotion dur="17s" begin="-16.2609s" repeatCount="indefinite" rotate="auto" path="M90 142 L710 142 L710 222 L170 222 L170 302 L710 302 L710 362 L90 362 Z"/>
+</g>
+<path d="M90 142 L710 142 L710 222 L170 222 L170 302 L710 302 L710 362 L90 362 Z" fill="none" stroke="url(#fur)" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="120 2640" stroke-dashoffset="120">
+  <animate attributeName="stroke-dashoffset" values="120;-2640" dur="17s" repeatCount="indefinite"/>
+</path>
+<g>
+  <ellipse cx="2" cy="0" rx="11" ry="8" fill="#c8732e"/>
+  <ellipse cx="11" cy="1" rx="6" ry="4.5" fill="#d98a45"/>
+  <circle cx="16" cy="0" r="2.2" fill="#1a0b05"/>
+  <circle cx="4" cy="-3" r="2.2" fill="#fff"/><circle cx="4.6" cy="-3" r="1.2" fill="#12052a"/>
+  <path d="M-4 -6 Q-10 4 -3 9 Q0 3 -1 -5Z" fill="#7a3d12"/>
+  <path d="M10 5 Q12 11 14 6" fill="#ff5d8f"><animate attributeName="d" values="M10 5 Q12 11 14 6;M10 5 Q12 14 14 6;M10 5 Q12 11 14 6" dur="0.4s" repeatCount="indefinite"/></path>
+  <animateMotion dur="17s" repeatCount="indefinite" rotate="auto" path="M90 142 L710 142 L710 222 L170 222 L170 302 L710 302 L710 362 L90 362 Z"/>
+</g>
+<rect x="40" y="92" width="720" height="300" fill="url(#scan)"/>
+<g text-anchor="middle">
+  <text x="400" y="436" font-size="20" font-weight="900" letter-spacing="5" fill="#00f0ff" filter="url(#glow)">▶ CLICK TO PLAY LIVE ◀
+    <animate attributeName="opacity" values="1;0.15;1" dur="1.1s" repeatCount="indefinite"/></text>
+  <text x="400" y="456" font-size="11" letter-spacing="3" fill="#b9a6e8">ONE DOG · EVERYONE STEERS · REAL-TIME OVER WEBSOCKETS</text>
+</g>
+</svg>

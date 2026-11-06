@@ -14,65 +14,22 @@
 <div align="center">
 
 ## 🕹️ DACHSHUND SNAKE
-### *The whole internet controls one sausage dog. You are the next move.*
+### *The whole internet controls one sausage dog. Live. Right now.*
 
-<img src="assets/board/523adcc751.svg" width="600" alt="Dachshund Snake board"/>
+<a href="https://linusnyren.github.io/arcade/"><img src="assets/arcade.svg" width="100%" alt="Dachshund Snake – click to play live"/></a>
 
-<table>
-<tr><td></td><td align="center"><a href="https://github.com/linusnyren/linusnyren/issues/new?title=snake%7Cup&body=%F0%9F%91%87%20**Just%20click%20%22Create%22%20%2F%20%22Submit%20new%20issue%22%20%E2%80%94%20don't%20change%20anything.**%0A%0AA%20GitHub%20Action%20will%20play%20your%20move%2C%20update%20the%20README%20and%20close%20this%20issue%20within%20~30%20seconds.%20Then%20head%20back%20to%20https%3A%2F%2Fgithub.com%2Flinusnyren%20and%20admire%20your%20work%20%F0%9F%90%B6"><img src="assets/btn-up.svg" width="64" alt="up"/></a></td><td></td></tr>
-<tr><td align="center"><a href="https://github.com/linusnyren/linusnyren/issues/new?title=snake%7Cleft&body=%F0%9F%91%87%20**Just%20click%20%22Create%22%20%2F%20%22Submit%20new%20issue%22%20%E2%80%94%20don't%20change%20anything.**%0A%0AA%20GitHub%20Action%20will%20play%20your%20move%2C%20update%20the%20README%20and%20close%20this%20issue%20within%20~30%20seconds.%20Then%20head%20back%20to%20https%3A%2F%2Fgithub.com%2Flinusnyren%20and%20admire%20your%20work%20%F0%9F%90%B6"><img src="assets/btn-left.svg" width="64" alt="left"/></a></td><td align="center"><img src="assets/dog.svg" width="64" alt="doggo"/></td><td align="center"><img src="assets/btn-right-off.svg" width="64" alt="right (not allowed)"/></td></tr>
-<tr><td></td><td align="center"><a href="https://github.com/linusnyren/linusnyren/issues/new?title=snake%7Cdown&body=%F0%9F%91%87%20**Just%20click%20%22Create%22%20%2F%20%22Submit%20new%20issue%22%20%E2%80%94%20don't%20change%20anything.**%0A%0AA%20GitHub%20Action%20will%20play%20your%20move%2C%20update%20the%20README%20and%20close%20this%20issue%20within%20~30%20seconds.%20Then%20head%20back%20to%20https%3A%2F%2Fgithub.com%2Flinusnyren%20and%20admire%20your%20work%20%F0%9F%90%B6"><img src="assets/btn-down.svg" width="64" alt="down"/></a></td><td></td></tr>
-</table>
-
-🟢 **Game #2 is live** — the doggo is heading **left**. Score: **1** 🦴 · 2 players this round.<br/>
-🏆 All-time high score: **1** (Game #2, by @linusnyren, @wenzzzel)<br/>
-🎮 **14** moves played by **2** players across **2** games
+<a href="https://linusnyren.github.io/arcade/"><img src="https://img.shields.io/badge/▶_PLAY_NOW-REAL--TIME_MULTIPLAYER-ff2bd6?style=for-the-badge&labelColor=12052a" alt="Play now"/></a>
 
 </div>
-
-<table align="center">
-<tr><th>🏅 HALL OF FAME</th><th>📜 RECENT MOVES</th></tr>
-<tr><td valign="top">
-
-| # | Player | Bones | Moves | Deaths |
-|:-:|:--|:-:|:-:|:-:|
-| 🥇 | [@wenzzzel](https://github.com/wenzzzel) | 1 🦴 | 7 | 1 💀 |
-| 🥈 | [@linusnyren](https://github.com/linusnyren) | 0 🦴 | 7 | 0 💀 |
-
-</td><td valign="top">
-
-| Move | Player | Result |
-|:-:|:--|:-:|
-| ⬅️ `left` | [@wenzzzel](https://github.com/wenzzzel) | 🦴 +1 |
-| ⬇️ `down` | [@wenzzzel](https://github.com/wenzzzel) | ✓ |
-| ⬅️ `left` | [@wenzzzel](https://github.com/wenzzzel) | ✓ |
-| ⬅️ `left` | [@wenzzzel](https://github.com/wenzzzel) | ✓ |
-| ⬇️ `down` | [@linusnyren](https://github.com/linusnyren) | ✓ |
-| ⬇️ `down` | [@linusnyren](https://github.com/linusnyren) | ✓ |
-| ⬇️ `down` | [@linusnyren](https://github.com/linusnyren) | ✓ |
-| ➡️ `right` | [@linusnyren](https://github.com/linusnyren) | 🔄 new game |
-
-</td></tr>
-</table>
 
 <details>
 <summary><b>❓ How does this even work?</b></summary>
 <br/>
 
-1. Clicking an arrow opens a pre-filled GitHub issue like `snake|up`.
-2. Submitting it triggers a [GitHub Action](.github/workflows/snake.yml) that runs [`game/snake.mjs`](game/snake.mjs).
-3. The engine moves the doggo, eats bones 🦴, detects crashes 💀, and re-renders the board as an animated SVG.
-4. It commits the new board + this README, comments the result on your issue, and closes it.
-
-No servers. No JavaScript in the browser. Just issues, Actions and an unreasonable amount of SVG.
-</details>
-
-<details>
-<summary><b>🔒 ???</b></summary>
-<br/>
-
-<p align="center"><code>↑ ↑ ↓ ↓ ← → ← → B A</code></p>
-<p align="center"><a href="https://github.com/linusnyren/linusnyren/issues/new?title=snake%7Ckonami&body=%F0%9F%91%87%20**Just%20click%20%22Create%22%20%2F%20%22Submit%20new%20issue%22%20%E2%80%94%20don't%20change%20anything.**%0A%0AA%20GitHub%20Action%20will%20play%20your%20move%2C%20update%20the%20README%20and%20close%20this%20issue%20within%20~30%20seconds.%20Then%20head%20back%20to%20https%3A%2F%2Fgithub.com%2Flinusnyren%20and%20admire%20your%20work%20%F0%9F%90%B6">▶ ENTER CODE ◀</a></p>
+- Everyone on [the arcade](https://linusnyren.github.io/arcade/) steers the **same** dachshund in real time — arrows / WASD / swipe.
+- Browsers talk over **MQTT-over-WebSockets**. No backend: the oldest active player's browser is elected host and runs the game loop; if they leave, the next one takes over seamlessly.
+- Nobody playing? The dog goes on 🤖 **autopilot** until a human grabs the leash.
+- Spam emotes with <kbd>1</kbd>–<kbd>5</kbd>, climb the hall of fame, and try <kbd>↑</kbd><kbd>↑</kbd><kbd>↓</kbd><kbd>↓</kbd><kbd>←</kbd><kbd>→</kbd><kbd>←</kbd><kbd>→</kbd><kbd>B</kbd><kbd>A</kbd>.
 </details>
 
 ---
