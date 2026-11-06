@@ -16,17 +16,17 @@
 ## 🕹️ DACHSHUND SNAKE
 ### *The whole internet controls one sausage dog. You are the next move.*
 
-<img src="assets/board.svg?v=0" width="600" alt="Dachshund Snake board"/>
+<img src="assets/board.svg?v=1" width="600" alt="Dachshund Snake board"/>
 
 <table>
 <tr><td></td><td align="center"><a href="https://github.com/linusnyren/linusnyren/issues/new?title=snake%7Cup&body=%F0%9F%91%87%20**Just%20click%20%22Create%22%20%2F%20%22Submit%20new%20issue%22%20%E2%80%94%20don't%20change%20anything.**%0A%0AA%20GitHub%20Action%20will%20play%20your%20move%2C%20update%20the%20README%20and%20close%20this%20issue%20within%20~30%20seconds.%20Then%20head%20back%20to%20https%3A%2F%2Fgithub.com%2Flinusnyren%20and%20admire%20your%20work%20%F0%9F%90%B6"><img src="assets/btn-up.svg" width="64" alt="up"/></a></td><td></td></tr>
-<tr><td align="center"><img src="assets/btn-left-off.svg" width="64" alt="left (not allowed)"/></td><td align="center"><img src="assets/dog.svg" width="64" alt="doggo"/></td><td align="center"><a href="https://github.com/linusnyren/linusnyren/issues/new?title=snake%7Cright&body=%F0%9F%91%87%20**Just%20click%20%22Create%22%20%2F%20%22Submit%20new%20issue%22%20%E2%80%94%20don't%20change%20anything.**%0A%0AA%20GitHub%20Action%20will%20play%20your%20move%2C%20update%20the%20README%20and%20close%20this%20issue%20within%20~30%20seconds.%20Then%20head%20back%20to%20https%3A%2F%2Fgithub.com%2Flinusnyren%20and%20admire%20your%20work%20%F0%9F%90%B6"><img src="assets/btn-right.svg" width="64" alt="right"/></a></td></tr>
-<tr><td></td><td align="center"><a href="https://github.com/linusnyren/linusnyren/issues/new?title=snake%7Cdown&body=%F0%9F%91%87%20**Just%20click%20%22Create%22%20%2F%20%22Submit%20new%20issue%22%20%E2%80%94%20don't%20change%20anything.**%0A%0AA%20GitHub%20Action%20will%20play%20your%20move%2C%20update%20the%20README%20and%20close%20this%20issue%20within%20~30%20seconds.%20Then%20head%20back%20to%20https%3A%2F%2Fgithub.com%2Flinusnyren%20and%20admire%20your%20work%20%F0%9F%90%B6"><img src="assets/btn-down.svg" width="64" alt="down"/></a></td><td></td></tr>
+<tr><td align="center"><a href="https://github.com/linusnyren/linusnyren/issues/new?title=snake%7Cleft&body=%F0%9F%91%87%20**Just%20click%20%22Create%22%20%2F%20%22Submit%20new%20issue%22%20%E2%80%94%20don't%20change%20anything.**%0A%0AA%20GitHub%20Action%20will%20play%20your%20move%2C%20update%20the%20README%20and%20close%20this%20issue%20within%20~30%20seconds.%20Then%20head%20back%20to%20https%3A%2F%2Fgithub.com%2Flinusnyren%20and%20admire%20your%20work%20%F0%9F%90%B6"><img src="assets/btn-left.svg" width="64" alt="left"/></a></td><td align="center"><img src="assets/dog.svg" width="64" alt="doggo"/></td><td align="center"><a href="https://github.com/linusnyren/linusnyren/issues/new?title=snake%7Cright&body=%F0%9F%91%87%20**Just%20click%20%22Create%22%20%2F%20%22Submit%20new%20issue%22%20%E2%80%94%20don't%20change%20anything.**%0A%0AA%20GitHub%20Action%20will%20play%20your%20move%2C%20update%20the%20README%20and%20close%20this%20issue%20within%20~30%20seconds.%20Then%20head%20back%20to%20https%3A%2F%2Fgithub.com%2Flinusnyren%20and%20admire%20your%20work%20%F0%9F%90%B6"><img src="assets/btn-right.svg" width="64" alt="right"/></a></td></tr>
+<tr><td></td><td align="center"><img src="assets/btn-down-off.svg" width="64" alt="down (not allowed)"/></td><td></td></tr>
 </table>
 
-🟢 **Game #1 is live** — the doggo is heading **right**. Score: **0** 🦴 · 0 players this round.<br/>
+🟢 **Game #1 is live** — the doggo is heading **up**. Score: **0** 🦴 · 1 player this round.<br/>
 🏆 All-time high score: **0** — the bar is on the floor. Step over it.<br/>
-🎮 **0** moves played by **0** players across **1** games
+🎮 **1** moves played by **1** players across **1** games
 
 </div>
 
@@ -36,13 +36,13 @@
 
 | # | Player | Bones | Moves | Deaths |
 |:-:|:--|:-:|:-:|:-:|
-| 🥇 | *your name here* | 0 🦴 | 0 | 0 💀 |
+| 🥇 | [@linusnyren](https://github.com/linusnyren) | 0 🦴 | 1 | 0 💀 |
 
 </td><td valign="top">
 
 | Move | Player | Result |
 |:-:|:--|:-:|
-| — | *nobody yet… be the first!* | — |
+| ⬆️ `up` | [@linusnyren](https://github.com/linusnyren) | ✓ |
 
 </td></tr>
 </table>
