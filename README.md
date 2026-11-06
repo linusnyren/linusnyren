@@ -16,7 +16,7 @@
 ## 🕹️ DACHSHUND SNAKE
 ### *The whole internet controls one sausage dog. You are the next move.*
 
-<img src="assets/board/020750b76b.svg" width="600" alt="Dachshund Snake board"/>
+<img src="assets/board/84aef387c1.svg" width="600" alt="Dachshund Snake board"/>
 
 <table>
 <tr><td></td><td align="center"><img src="assets/btn-up-off.svg" width="64" alt="up (not allowed)"/></td><td></td></tr>
@@ -26,7 +26,7 @@
 
 🟢 **Game #2 is live** — the doggo is heading **down**. Score: **0** 🦴 · 1 player this round.<br/>
 🏆 All-time high score: **0** — the bar is on the floor. Step over it.<br/>
-🎮 **9** moves played by **2** players across **2** games
+🎮 **10** moves played by **2** players across **2** games
 
 </div>
 
@@ -36,7 +36,7 @@
 
 | # | Player | Bones | Moves | Deaths |
 |:-:|:--|:-:|:-:|:-:|
-| 🥇 | [@linusnyren](https://github.com/linusnyren) | 0 🦴 | 6 | 0 💀 |
+| 🥇 | [@linusnyren](https://github.com/linusnyren) | 0 🦴 | 7 | 0 💀 |
 | 🥈 | [@wenzzzel](https://github.com/wenzzzel) | 0 🦴 | 3 | 1 💀 |
 
 </td><td valign="top">
@@ -45,11 +45,11 @@
 |:-:|:--|:-:|
 | ⬇️ `down` | [@linusnyren](https://github.com/linusnyren) | ✓ |
 | ⬇️ `down` | [@linusnyren](https://github.com/linusnyren) | ✓ |
+| ⬇️ `down` | [@linusnyren](https://github.com/linusnyren) | ✓ |
 | ➡️ `right` | [@linusnyren](https://github.com/linusnyren) | 🔄 new game |
 | ⬆️ `up` | [@wenzzzel](https://github.com/wenzzzel) | 💀 game over |
 | ⬆️ `up` | [@linusnyren](https://github.com/linusnyren) | ✓ |
 | ⬆️ `up` | [@linusnyren](https://github.com/linusnyren) | ✓ |
-| ⬆️ `up` | [@wenzzzel](https://github.com/wenzzzel) | ✓ |
 | ⬆️ `up` | [@wenzzzel](https://github.com/wenzzzel) | ✓ |
 
 </td></tr>

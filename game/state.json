@@ -1,6 +1,6 @@
 {
   "game": 2,
-  "totalMoves": 9,
+  "totalMoves": 10,
   "highScore": {
     "score": 0,
     "game": 0,
@@ -8,7 +8,7 @@
   },
   "players": {
     "linusnyren": {
-      "moves": 6,
+      "moves": 7,
       "bones": 0,
       "deaths": 0,
       "konami": false
@@ -21,6 +21,13 @@
     }
   },
   "history": [
+    {
+      "login": "linusnyren",
+      "move": "down",
+      "result": "✓",
+      "game": 2,
+      "at": "2026-11-06T10:40:00.075Z"
+    },
     {
       "login": "linusnyren",
       "move": "down",
@@ -69,17 +76,14 @@
       "result": "✓",
       "game": 1,
       "at": "2026-11-06T10:35:23.673Z"
-    },
-    {
-      "login": "wenzzzel",
-      "move": "up",
-      "result": "✓",
-      "game": 1,
-      "at": "2026-11-06T10:34:41.764Z"
     }
   ],
   "board": {
     "snake": [
+      [
+        4,
+        8
+      ],
       [
         4,
         7
@@ -87,10 +91,6 @@
       [
         4,
         6
-      ],
-      [
-        4,
-        5
       ]
     ],
     "dir": "down",
@@ -99,7 +99,7 @@
       9
     ],
     "score": 0,
-    "moves": 2,
+    "moves": 3,
     "status": "playing",
     "contributors": [
       "linusnyren"
