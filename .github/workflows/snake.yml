@@ -1,0 +1,43 @@
+name: 🐶 Dachshund Snake
+
+on:
+  issues:
+    types: [opened]
+  workflow_dispatch:
+
+# One game, one queue. Each run processes *all* open move issues, so a run
+# that gets superseded in the queue never loses a move.
+concurrency:
+  group: dachshund-snake
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  play:
+    if: github.event_name == 'workflow_dispatch' || startsWith(github.event.issue.title, 'snake|')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Play moves
+        run: node game/snake.mjs play
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit board
+        run: |
+          git config user.name "dachshund-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md assets game/state.json
+          git diff --cached --quiet && exit 0
+          git commit -q -F .commit-msg
+          for i in 1 2 3; do git pull -q --rebase && git push -q && exit 0; sleep 3; done
+          exit 1
+      - name: Reply on issues
+        run: node game/snake.mjs notify
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

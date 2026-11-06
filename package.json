@@ -1,0 +1,9 @@
+{
+  "name": "linusnyren",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node game/hero.mjs && node game/card.mjs && node game/snake.mjs render",
+    "test": "node --test game/*.test.mjs"
+  }
+}

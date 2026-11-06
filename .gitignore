@@ -1,0 +1,4 @@
+.pending.json
+.commit-msg
+.DS_Store
+node_modules/

@@ -1,0 +1,37 @@
+{
+  "game": 1,
+  "totalMoves": 0,
+  "highScore": {
+    "score": 0,
+    "game": 0,
+    "players": []
+  },
+  "players": {},
+  "history": [],
+  "board": {
+    "snake": [
+      [
+        4,
+        5
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        2,
+        5
+      ]
+    ],
+    "dir": "right",
+    "food": [
+      3,
+      0
+    ],
+    "score": 0,
+    "moves": 0,
+    "status": "playing",
+    "contributors": [],
+    "death": null
+  }
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+<defs><filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<style>.p{animation:p 1.5s ease-in-out infinite}@keyframes p{50%{opacity:.55}}</style>
+<rect x="4" y="8" width="56" height="52" rx="10" fill="#05010f"/>
+<rect x="4" y="4" width="56" height="52" rx="10" fill="#12052a" stroke="#00f0ff" stroke-width="2.5" filter="url(#g)"/>
+<g transform="rotate(270 32 30)"><path d="M32,14 L46,34 H37 V44 H27 V34 H18 Z" fill="#ff2bd6" class="p" filter="url(#g)"/></g>
+</svg>
