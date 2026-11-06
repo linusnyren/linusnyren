@@ -40,7 +40,7 @@ function bar(x, y, w, label, value, max, color, delay) {
   const pct = Math.max(0.06, value / max);
   return `<text x="${x}" y="${y - 6}" class="lbl">${esc(label)}</text><text x="${x + w}" y="${y - 6}" class="lbl" text-anchor="end">${value}</text>
   <rect x="${x}" y="${y}" width="${w}" height="12" rx="2" fill="#1d0b36" stroke="#3d1d66"/>
-  <rect x="${x}" y="${y}" width="${(w * pct).toFixed(1)}" height="12" rx="2" fill="${color}" class="fill" style="animation-delay:${delay}s"/>
+  <rect x="${x}" y="${y}" width="${(w * pct).toFixed(1)}" height="12" rx="2" fill="${color}"><animate attributeName="opacity" values="1;0.7;1" dur="2.4s" begin="${delay}s" repeatCount="indefinite"/></rect>
   ${Array.from({ length: 9 }, (_, i) => `<rect x="${x + ((i + 1) * w) / 10 - 1}" y="${y}" width="2" height="12" fill="#0b0418"/>`).join('')}`;
 }
 
@@ -56,6 +56,7 @@ const xp = repoCount * 1000 + stars * 250 + (user.followers || 0) * 100;
 
 const stat = (y, k, v) => `<text x="330" y="${y}" class="key">${k}</text><text x="470" y="${y}" class="val">${esc(v)}</text>`;
 const marquee = QUESTS.map((q) => `★ ${q}`).join('     ');
+const MQ_LEN = Math.round([...marquee].length * 8.7);
 
 const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="Player card for ${USER}">
 <defs>
@@ -75,8 +76,6 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" wid
   .lbl{font-size:12px;fill:#bfaee0;font-weight:700}
   .sec{font-size:12px;fill:#00f0ff;font-weight:700;letter-spacing:3px}
   .mq{font-size:14px;fill:#ffe259;font-weight:700}
-  .fill{transform-box:fill-box;transform-origin:left;animation:grow 1.4s cubic-bezier(.2,.9,.3,1.2) both}
-  @keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
   .float{animation:float 2.4s ease-in-out infinite}
   @keyframes float{50%{transform:translateY(-6px)}}
   .blink{animation:blink 1.1s steps(1) infinite}@keyframes blink{50%{opacity:0}}
@@ -103,7 +102,7 @@ ${stat(184, 'QUESTS', `${repoCount} repos · ★ ${stars}`)}
 ${stat(208, 'PARTY', `${user.followers ?? 0} followers`)}
 <text x="330" y="232" class="key">XP</text>
 <rect x="470" y="221" width="160" height="12" rx="2" fill="#1d0b36" stroke="#3d1d66"/>
-<rect x="470" y="221" width="${(160 * ((xp % 10000) / 10000 || 0.5)).toFixed(0)}" height="12" rx="2" fill="url(#xp)" class="fill"/>
+<rect x="470" y="221" width="${(160 * ((xp % 10000) / 10000 || 0.5)).toFixed(0)}" height="12" rx="2" fill="url(#xp)"/>
 <text x="640" y="232" class="lbl">${xp.toLocaleString('en-US')}</text>
 
 <!-- skills -->
@@ -112,11 +111,11 @@ ${top.map(([l, v], i) => bar(700, 84 + i * 34, 230, l.toUpperCase(), v, maxLang,
 
 <!-- quest log marquee -->
 <rect x="24" y="${H - 56}" width="${W - 48}" height="40" rx="6" fill="#0b0418" stroke="#3d1d66"/>
-<g clip-path="url(#mq)">
-  <text y="${H - 30}" class="mq">${esc(marquee)}     ${esc(marquee)}
-    <animate attributeName="x" values="${W};-${Math.round(marquee.length * 8.6)}" dur="${Math.round(marquee.length / 9)}s" repeatCount="indefinite"/>
-  </text>
-</g>
+<g clip-path="url(#mq)"><g>
+  <text x="40" y="${H - 30}" class="mq" textLength="${MQ_LEN}" lengthAdjust="spacing">${esc(marquee)}</text>
+  <text x="${40 + MQ_LEN + 40}" y="${H - 30}" class="mq" textLength="${MQ_LEN}" lengthAdjust="spacing">${esc(marquee)}</text>
+  <animateTransform attributeName="transform" type="translate" values="0,0;-${MQ_LEN + 40},0" dur="${Math.round(MQ_LEN / 45)}s" repeatCount="indefinite"/>
+</g></g>
 <text x="40" y="${H - 64}" class="sec">ACHIEVEMENTS UNLOCKED</text>
 <rect width="${W}" height="${H}" rx="14" fill="url(#scan)"/>
 </svg>
