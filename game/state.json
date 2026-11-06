@@ -1,6 +1,6 @@
 {
   "game": 1,
-  "totalMoves": 2,
+  "totalMoves": 3,
   "highScore": {
     "score": 0,
     "game": 0,
@@ -12,9 +12,22 @@
       "bones": 0,
       "deaths": 0,
       "konami": false
+    },
+    "wenzzzel": {
+      "moves": 1,
+      "bones": 0,
+      "deaths": 0,
+      "konami": false
     }
   },
   "history": [
+    {
+      "login": "wenzzzel",
+      "move": "up",
+      "result": "✓",
+      "game": 1,
+      "at": "2026-11-06T10:34:41.764Z"
+    },
     {
       "login": "linusnyren",
       "move": "right",
@@ -34,27 +47,28 @@
     "snake": [
       [
         5,
+        3
+      ],
+      [
+        5,
         4
       ],
       [
         4,
         4
-      ],
-      [
-        4,
-        5
       ]
     ],
-    "dir": "right",
+    "dir": "up",
     "food": [
       3,
       0
     ],
     "score": 0,
-    "moves": 2,
+    "moves": 3,
     "status": "playing",
     "contributors": [
-      "linusnyren"
+      "linusnyren",
+      "wenzzzel"
     ],
     "death": null
   }
