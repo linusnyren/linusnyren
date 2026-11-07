@@ -47,25 +47,25 @@
 
 <!-- skills -->
 <text x="700" y="58" class="sec">SKILL TREE</text>
-<text x="700" y="78" class="lbl">JAVA</text><text x="930" y="78" class="lbl" text-anchor="end">6</text>
+<text x="700" y="78" class="lbl">JAVASCRIPT</text><text x="930" y="78" class="lbl" text-anchor="end">7</text>
   <rect x="700" y="84" width="230" height="12" rx="2" fill="#1d0b36" stroke="#3d1d66"/>
-  <rect x="700" y="84" width="230.0" height="12" rx="2" fill="#ff8a3d"><animate attributeName="opacity" values="1;0.7;1" dur="2.4s" begin="0.2s" repeatCount="indefinite"/></rect>
+  <rect x="700" y="84" width="230.0" height="12" rx="2" fill="#f7df1e"><animate attributeName="opacity" values="1;0.7;1" dur="2.4s" begin="0.2s" repeatCount="indefinite"/></rect>
   <rect x="722" y="84" width="2" height="12" fill="#0b0418"/><rect x="745" y="84" width="2" height="12" fill="#0b0418"/><rect x="768" y="84" width="2" height="12" fill="#0b0418"/><rect x="791" y="84" width="2" height="12" fill="#0b0418"/><rect x="814" y="84" width="2" height="12" fill="#0b0418"/><rect x="837" y="84" width="2" height="12" fill="#0b0418"/><rect x="860" y="84" width="2" height="12" fill="#0b0418"/><rect x="883" y="84" width="2" height="12" fill="#0b0418"/><rect x="906" y="84" width="2" height="12" fill="#0b0418"/>
-<text x="700" y="112" class="lbl">JAVASCRIPT</text><text x="930" y="112" class="lbl" text-anchor="end">6</text>
+<text x="700" y="112" class="lbl">JAVA</text><text x="930" y="112" class="lbl" text-anchor="end">6</text>
   <rect x="700" y="118" width="230" height="12" rx="2" fill="#1d0b36" stroke="#3d1d66"/>
-  <rect x="700" y="118" width="230.0" height="12" rx="2" fill="#f7df1e"><animate attributeName="opacity" values="1;0.7;1" dur="2.4s" begin="0.35s" repeatCount="indefinite"/></rect>
+  <rect x="700" y="118" width="197.1" height="12" rx="2" fill="#ff8a3d"><animate attributeName="opacity" values="1;0.7;1" dur="2.4s" begin="0.35s" repeatCount="indefinite"/></rect>
   <rect x="722" y="118" width="2" height="12" fill="#0b0418"/><rect x="745" y="118" width="2" height="12" fill="#0b0418"/><rect x="768" y="118" width="2" height="12" fill="#0b0418"/><rect x="791" y="118" width="2" height="12" fill="#0b0418"/><rect x="814" y="118" width="2" height="12" fill="#0b0418"/><rect x="837" y="118" width="2" height="12" fill="#0b0418"/><rect x="860" y="118" width="2" height="12" fill="#0b0418"/><rect x="883" y="118" width="2" height="12" fill="#0b0418"/><rect x="906" y="118" width="2" height="12" fill="#0b0418"/>
 <text x="700" y="146" class="lbl">C#</text><text x="930" y="146" class="lbl" text-anchor="end">2</text>
   <rect x="700" y="152" width="230" height="12" rx="2" fill="#1d0b36" stroke="#3d1d66"/>
-  <rect x="700" y="152" width="76.7" height="12" rx="2" fill="#a179dc"><animate attributeName="opacity" values="1;0.7;1" dur="2.4s" begin="0.5s" repeatCount="indefinite"/></rect>
+  <rect x="700" y="152" width="65.7" height="12" rx="2" fill="#a179dc"><animate attributeName="opacity" values="1;0.7;1" dur="2.4s" begin="0.5s" repeatCount="indefinite"/></rect>
   <rect x="722" y="152" width="2" height="12" fill="#0b0418"/><rect x="745" y="152" width="2" height="12" fill="#0b0418"/><rect x="768" y="152" width="2" height="12" fill="#0b0418"/><rect x="791" y="152" width="2" height="12" fill="#0b0418"/><rect x="814" y="152" width="2" height="12" fill="#0b0418"/><rect x="837" y="152" width="2" height="12" fill="#0b0418"/><rect x="860" y="152" width="2" height="12" fill="#0b0418"/><rect x="883" y="152" width="2" height="12" fill="#0b0418"/><rect x="906" y="152" width="2" height="12" fill="#0b0418"/>
-<text x="700" y="180" class="lbl">HTML</text><text x="930" y="180" class="lbl" text-anchor="end">2</text>
+<text x="700" y="180" class="lbl">SHELL</text><text x="930" y="180" class="lbl" text-anchor="end">1</text>
   <rect x="700" y="186" width="230" height="12" rx="2" fill="#1d0b36" stroke="#3d1d66"/>
-  <rect x="700" y="186" width="76.7" height="12" rx="2" fill="#ff5c39"><animate attributeName="opacity" values="1;0.7;1" dur="2.4s" begin="0.6499999999999999s" repeatCount="indefinite"/></rect>
+  <rect x="700" y="186" width="32.9" height="12" rx="2" fill="#89e051"><animate attributeName="opacity" values="1;0.7;1" dur="2.4s" begin="0.6499999999999999s" repeatCount="indefinite"/></rect>
   <rect x="722" y="186" width="2" height="12" fill="#0b0418"/><rect x="745" y="186" width="2" height="12" fill="#0b0418"/><rect x="768" y="186" width="2" height="12" fill="#0b0418"/><rect x="791" y="186" width="2" height="12" fill="#0b0418"/><rect x="814" y="186" width="2" height="12" fill="#0b0418"/><rect x="837" y="186" width="2" height="12" fill="#0b0418"/><rect x="860" y="186" width="2" height="12" fill="#0b0418"/><rect x="883" y="186" width="2" height="12" fill="#0b0418"/><rect x="906" y="186" width="2" height="12" fill="#0b0418"/>
-<text x="700" y="214" class="lbl">SHELL</text><text x="930" y="214" class="lbl" text-anchor="end">1</text>
+<text x="700" y="214" class="lbl">TYPESCRIPT</text><text x="930" y="214" class="lbl" text-anchor="end">1</text>
   <rect x="700" y="220" width="230" height="12" rx="2" fill="#1d0b36" stroke="#3d1d66"/>
-  <rect x="700" y="220" width="38.3" height="12" rx="2" fill="#89e051"><animate attributeName="opacity" values="1;0.7;1" dur="2.4s" begin="0.8s" repeatCount="indefinite"/></rect>
+  <rect x="700" y="220" width="32.9" height="12" rx="2" fill="#3178c6"><animate attributeName="opacity" values="1;0.7;1" dur="2.4s" begin="0.8s" repeatCount="indefinite"/></rect>
   <rect x="722" y="220" width="2" height="12" fill="#0b0418"/><rect x="745" y="220" width="2" height="12" fill="#0b0418"/><rect x="768" y="220" width="2" height="12" fill="#0b0418"/><rect x="791" y="220" width="2" height="12" fill="#0b0418"/><rect x="814" y="220" width="2" height="12" fill="#0b0418"/><rect x="837" y="220" width="2" height="12" fill="#0b0418"/><rect x="860" y="220" width="2" height="12" fill="#0b0418"/><rect x="883" y="220" width="2" height="12" fill="#0b0418"/><rect x="906" y="220" width="2" height="12" fill="#0b0418"/>
 
 <!-- quest log marquee -->
